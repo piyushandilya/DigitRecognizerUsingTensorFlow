@@ -186,15 +186,15 @@ Project Link: [https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow](
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/piyushandilya/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/piyushandilya/repo/graphs/contributors
+[contributors-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/piyushandilya/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/piyushandilya/repo/network/members
+[forks-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/network/members
 [stars-shield]: https://img.shields.io/github/stars/piyushandilya/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/piyushandilya/repo/stargazers
+[stars-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/stargazers
 [issues-shield]: https://img.shields.io/github/issues/piyushandilya/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/piyushandilya/repo/issues
+[issues-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/issues
 [license-shield]: https://img.shields.io/github/license/piyushandilya/repo.svg?style=for-the-badge
-[license-url]: https://github.com/piyushandilya/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/piyush-shandilya-7b857577
 [product-screenshot]: images/DigitRecognizer.jpg
