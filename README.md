@@ -24,7 +24,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -74,7 +73,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -87,10 +85,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/blob/main/DigitRecognizer.jpg?raw=true)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`piyushandilya`, `DigitRecognizerUsingTensorFlow`, `piyushandilya`, `piyushshandilya44@gmail.com`, `Digit Recognizer Using Keras`, `Basic Hand Written Digit Recognizer using Keras`
-
+This is a CNN based model that trains on the input images of handwritten digits and predicts the ouput with maximum accuracy for new hadn written digit images.
 
 ### Built With
 
@@ -108,11 +103,15 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+
 * Python
-  ```sh
+* Pip (to install Keras)
+* Keras
+* Tensorflow
+<!--  ```sh
   npm install npm@latest -g
   ```
+-->
 
 ### Installation
 
@@ -120,19 +119,24 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow.git
    ```
-2. Install NPM packages
-   ```sh
+2. Run
+<!--   ```sh
    npm install
    ```
-
+-->
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Just run the code normally and let the model<br>
+  a) Load pre-shuffled image data from the MNIST datasets<br>
+  b) Process/Reshape the input data to train<br>
+  c) Normalize the data<br>
+  d) Convert the training labels to categorical data<br>
+  e) Compile and fit on the training data<br>
+  f) and evaluate on the test data, printing the accuracy on both the training and the test data<br>
+  g) The model will loop and display the test images and predict the output for those images<br>
 
 
 
@@ -155,18 +159,10 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@piyushandilya](https://twitter.com/piyushandilya) - piyushshandilya44@gmail.com
+Piyush Shandilya - [@piyushandilya](https://twitter.com/piyushandilya) - piyushshandilya44@gmail.com
 
 Project Link: [https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow](https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow)
 
@@ -175,9 +171,7 @@ Project Link: [https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow](
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [MNIST](http://yann.lecun.com/exdb/mnist/)
 
 
 
@@ -193,8 +187,6 @@ Project Link: [https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow](
 [stars-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/stargazers
 [issues-shield]: https://img.shields.io/github/issues/piyushandilya/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/issues
-[license-shield]: https://img.shields.io/github/license/piyushandilya/repo.svg?style=for-the-badge
-[license-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/piyush-shandilya-7b857577
 [product-screenshot]: images/DigitRecognizer.jpg
