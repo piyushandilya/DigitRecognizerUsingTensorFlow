@@ -32,8 +32,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/piyushandilya/
-           ">
+  <a href="https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -86,7 +85,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/blob/main/DigitRecognizer.jpg?raw=true)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -95,9 +94,10 @@ Here's a blank template to get started:
 
 ### Built With
 
-* [Python 3.0]()
-* [Keras]()
-* []()
+* [Python3.7.3](https://www.python.org/downloads/)
+* [Keras](https://keras.io/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Matplotlib](https://matplotlib.org/)
 
 
 
@@ -109,7 +109,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Python
   ```sh
   npm install npm@latest -g
   ```
@@ -197,3 +197,4 @@ Project Link: [https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow](
 [license-url]: https://github.com/piyushandilya/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/piyush-shandilya-7b857577
+[product-screenshot]: images/DigitRecognizer.jpg
