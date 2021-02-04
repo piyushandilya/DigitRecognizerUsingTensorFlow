@@ -159,4 +159,4 @@ Project Link: [https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow](
 [issues-url]: https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/piyush-shandilya-7b857577
-[product-screenshot]: images/DigitRecognizer.jpg
+[product-screenshot]: images/DigitRecognizerm.gif
