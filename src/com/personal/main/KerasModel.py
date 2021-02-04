@@ -1,5 +1,6 @@
 # Import libraries and modules
 import numpy as np
+import os
 np.random.seed(123)  # for reproducibility
 
 from keras.models import Sequential
@@ -8,6 +9,13 @@ from keras.layers import Convolution2D, MaxPooling2D
 from keras.utils import np_utils
 from keras.datasets import mnist
 import matplotlib.pyplot as plt
+
+# Function to clear the console for a clear predicted output display
+def clearConsole():
+    command = 'clear'
+if os.name in ('nt', 'dos'):  # If Machine is running on Windows, use cls
+    command = 'cls'
+    os.system(command)
 
 
 # Load pre-shuffled MNIST data into train and test sets
@@ -52,6 +60,8 @@ model.fit(X_train, Y_train,
 score = model.evaluate(X_test, Y_test, verbose=0)
 
 for i in range(X_check.shape[1]):
+    clearConsole()
+    print("The predicted output is: ")
     print(y_test[i])
     plt.imshow(X_check[i])
     plt.show()
