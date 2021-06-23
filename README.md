@@ -63,7 +63,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/piyushandilya/DigitRecognizerUsingTensorFlow/blob/main/DigitRecognizer.jpg?raw=true)
 
-This is a CNN based model that trains on the input images of handwritten digits and predicts the ouput with maximum accuracy for new hadn written digit images.
+This is a CNN based model that trains on the input images of handwritten digits and predicts the ouput with maximum accuracy for new hand written digit images.
 
 ### Built With
 
